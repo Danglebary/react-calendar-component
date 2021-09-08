@@ -1,0 +1,13 @@
+.weekdays-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.weekday {
+    min-width: calc(80w / 7);
+    font-size: 1.5rem;
+    text-align: center;
+}
